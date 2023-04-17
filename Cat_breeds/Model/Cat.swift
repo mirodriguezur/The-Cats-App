@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct Cat {
+public struct Cat: Decodable {
     let breedName: String
     let origin: String
     let affectionLevel: Int
