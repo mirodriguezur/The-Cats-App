@@ -62,7 +62,7 @@ class CatServices {
               print("Unable to decode thecatapi response: \(error.localizedDescription)")
               completion(.failure(Error.invalidData))
             }
-        }
+        }.resume()
     }
 }
 

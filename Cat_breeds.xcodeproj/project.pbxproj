@@ -18,6 +18,7 @@
 		1C5FB51529ECF6D1000FBE9D /* ViewModelCat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5FB51429ECF6D1000FBE9D /* ViewModelCat.swift */; };
 		1C5FB51829ECF9A6000FBE9D /* CatServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5FB51729ECF9A6000FBE9D /* CatServices.swift */; };
 		1C5FB51B29ECFF3C000FBE9D /* LoadCatInformationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5FB51A29ECFF3C000FBE9D /* LoadCatInformationResult.swift */; };
+		1C5FB51E29ED15B9000FBE9D /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5FB51D29ED15B9000FBE9D /* Box.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		1C5FB51429ECF6D1000FBE9D /* ViewModelCat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelCat.swift; sourceTree = "<group>"; };
 		1C5FB51729ECF9A6000FBE9D /* CatServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatServices.swift; sourceTree = "<group>"; };
 		1C5FB51A29ECFF3C000FBE9D /* LoadCatInformationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadCatInformationResult.swift; sourceTree = "<group>"; };
+		1C5FB51D29ED15B9000FBE9D /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		1C5FB4E029ECF50C000FBE9D /* Cat_breeds */ = {
 			isa = PBXGroup;
 			children = (
+				1C5FB51C29ED15A6000FBE9D /* Utilities */,
 				1C5FB51929ECF9B4000FBE9D /* Services */,
 				1C5FB51629ECF6DF000FBE9D /* ViewModel */,
 				1C5FB51329ECF5FA000FBE9D /* Model */,
@@ -147,6 +150,14 @@
 				1C5FB51A29ECFF3C000FBE9D /* LoadCatInformationResult.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		1C5FB51C29ED15A6000FBE9D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1C5FB51D29ED15B9000FBE9D /* Box.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +296,7 @@
 				1C5FB51829ECF9A6000FBE9D /* CatServices.swift in Sources */,
 				1C5FB51529ECF6D1000FBE9D /* ViewModelCat.swift in Sources */,
 				1C5FB4E629ECF50C000FBE9D /* ViewController.swift in Sources */,
+				1C5FB51E29ED15B9000FBE9D /* Box.swift in Sources */,
 				1C5FB4E229ECF50C000FBE9D /* AppDelegate.swift in Sources */,
 				1C5FB4E429ECF50C000FBE9D /* SceneDelegate.swift in Sources */,
 			);
